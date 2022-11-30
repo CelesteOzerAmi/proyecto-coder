@@ -1,1 +1,9 @@
-.Contenedor { background-color: rgba(235, 236, 236, 0.849);}
+.Contenedor {background: linear-gradient( 180deg, rgba(242,226,236,0.9472163865546218) 2%, rgba(214,225,238,0.7343312324929971) 75%);}
+body { 
+    padding:0 
+    ;margin: 0;
+}
+
+.Sug { text-align: center; align-self:center; font-family: Verdana, Geneva, Tahoma, sans-serif ; font-size: small;}
+footer {; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: small;}
+header { font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: small; }

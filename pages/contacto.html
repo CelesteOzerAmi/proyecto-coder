@@ -11,7 +11,7 @@
     <title>Encontrá a tu mascota!</title>
 </head>
 
-<body>
+<body  class="Contenedor">
     <header class="navbar navbar-expand-md bg-light p-3">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -33,7 +33,7 @@
         </div>
     </header>
 
-    <main class="container contenedor d-flex flex-column my-4 p-3">
+    <main class="container d-flex flex-column my-4 p-3">
         <section class="row text-start p-2 gap-2 border-bottom">
             <h1 class="fw-light">Encontrá a tu mascota!</h1>
             <p> <em class="text-muted">Primer sitio de búsqueda y publicación de mascotas perdidas en Montevideo</em>
@@ -60,13 +60,11 @@
                 </form>
             </div>
         </section>
-        <div class="row p-5 text-center">
-            <label for="consulta">
-                <h3 class="fw-light"> Detallá tu consulta </h3>
-            </label>
-            <textarea class="shadow-sm" name="" id="consulta" cols="" rows="3"></textarea>
+        <div class="row input-group-sm text-center m-5 mt-2 p-3">
+            <span class="input-group-text">Detallá tu consulta</span>
+            <textarea class="form-control shadow-sm" aria-label="Detallá tu consulta"></textarea>
         </div>
-        <div class="row m-5 text-center border-top border-bottom shadow" >
+        <div class="row mb-5 text-center shadow" >
             <input class="btn btn-outline-dark" type="submit" value="Enviar">
         </div>
     </main>
