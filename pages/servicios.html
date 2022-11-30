@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Encontrá a tu mascota!</title>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-md bg-light p-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../images/th (1).jpg" class="col rounded img-fluid w-50"
+                    alt="lupa delante de un perro en caricatura"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link active" href="./ingreso.html">Registrarme</a>
+                    <a class="nav-link active" href="./buscar.html">Buscar</a>
+                    <a class="nav-link active" href="./publicar.html">Publicar</a>
+                    <a class="nav-link active" href="./servicios.html">Ver servicios</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container d-flex flex-column my-4 ">
+        <section class="row text-start p-2 gap-2 border-bottom">
+            <h1 class="fw-light">Encontrá a tu mascota!</h1>
+            <p> <em class="text-muted">Primer sitio de búsqueda y publicación de mascotas perdidas en Montevideo</em>
+            </p>
+        </section>
+        <section class="row text-center p-2 m-3 mt-4 ">
+            <h2 class="display-3">Servicios cercanos</h2>
+            <p class="text-muted mt-2"> <em> Filtrá según tu barrio y el servicio que deseas encontrar</em> </p>
+        </section>
+        <section class="row text-md-center dropdown mx-2 mb-4 ">
+            <button class="fw-light btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Seleccioná tu barrio
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Agraciada</a></li>
+                <li><a class="dropdown-item" href="#">Aguada</a></li>
+                <li><a class="dropdown-item" href="#">Bella Vista</a></li>
+                <li><a class="dropdown-item" href="#">Cordón</a></li>
+                <li><a class="dropdown-item" href="#">Ciudad Vieja</a></li>
+            </ul>
+        </section>
+        <section class="row text-center gap-2 m-3 p-2 border-top">
+            <h3 class="col fw-light">Seleccioná el servicio que buscás</h3>
+        </section>
+        <section class="row text-md-center m-3 p-2">
+            <div class="mb-3 form-check">
+                <input class="col 6" type="checkbox" id="todo">
+                <label class="col 6" for="todo">Todos los servicios</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input class="col 6" type="checkbox" id="vet">
+                <label class="col 6" for="vet">Veterinarias</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input class="col 6" type="checkbox" id="far">
+                <label class="col 6" for="far">Farmacias</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input class="col 6" type="checkbox" id="tie">
+                <label class="col 6" for="tie">Tiendas</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input class="col 6" type="checkbox" id="pel">
+                <label class="col 6" for="pel">Peluquerías</label>
+            </div>
+            <div class="mb-3 form-check">
+                <input class="col 6" type="checkbox" id="otro">
+                <label class="col 6" for="otro">Otros servicios</label>
+            </div>
+        </section>
+
+
+        <section class="row accordion accordion-flush justify-content-around gap-2 p-3 border-bottom border-top">
+            <h3 class="display-6 text-center p-3">Servicios encontrados en tu zona </h3>
+            <div class="accordion-item ">
+                <h2 class="accordion-header " id="flush-headingOne">
+                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Veterinaria Gato loco
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Veterinaria Gato loco, zona Cordón. Abierto Lun a Vie, de 8:30 a 18:30.
+                        Sab de 9:00 a 13:00. Acepta débito y Mercado Pago.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Veterinaria Rana salvaje
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Veterinaria Rana salvaje, zona Centro. Abierto Lun a Vie, de 7:00 a
+                        19:00. Sab cerrado. Acepta débito y crédito.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Tienda Perro fachero
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"> Tienda Perro fachero. Ofrece medicamentos veterinarios, alimentos, ropa
+                        y otras utilidades. Abierto 24hs. Acepta débito, crédito y Mercado Pago.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+    <footer class="bg-light">
+        <div class="container  d-flex flex-column p-3">
+            <nav class=" row align-items-center text-center contenedorFooter">
+            <a class="col-4" href="#">Quiénes somos</a>
+            <a class="col-4 " href="#">Denuncias y reclamos</a>
+            <a class="col-4" href="./contacto.html">Contactános</a>
+            </nav>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

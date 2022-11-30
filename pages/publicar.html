@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Encontrá a tu mascota!</title>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-md bg-light p-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../images/th (1).jpg" class="col rounded img-fluid w-50"
+                    alt="lupa delante de un perro en caricatura"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link active" href="./ingreso.html">Registrarme</a>
+                    <a class="nav-link active" href="./buscar.html">Buscar</a>
+                    <a class="nav-link active" href="./publicar.html">Publicar</a>
+                    <a class="nav-link active" href="./servicios.html">Ver servicios</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container d-flex flex-column my-4 ">
+        <section class="row text-start p-2 gap-2 border-bottom">
+            <h1 class="fw-light">Encontrá a tu mascota!</h1>
+            <p> <em class="text-muted">Primer sitio de búsqueda y publicación de mascotas perdidas en Montevideo</em>
+            </p>
+        </section>
+        <section class="row text-center p-2 mb-5 mt-2">
+            <h2 class="display-3 p-4 ">Publicá una mascota</h2>
+            <p class="mb-5"> <em> Completá los campos para publicar un animal que perdiste o encontraste</em>
+            </p>
+            <button type="button" class="col-6  btn btn-outline-dark">Perdida</button>
+            <button type="button" class="col-6 btn btn-outline-dark">Encontrada</button>
+        </section>
+
+        <section class="row justify-content-center gap-4 p-3 my-3  border-top">
+            <h3 class="fw-light text-center ">Indicá la especie</h3>
+            <form action="" class="">
+                <div class="mb-3 form-check">
+                    <label class=" form-check-label" for="check1">Perro</label>
+                    <input type="checkbox" class="form-check-input" name="check" id="check1" value="checka">
+                </div>
+                <div class="mb-3 form-check">
+                    <label class="form-check-label" for="check2">Gato</label>
+                    <input class="form-check-input" type="checkbox" name="check" id="check2" value="checkb">
+                </div>
+                <div class="mb-3 form-check">
+                    <label class="form-check-label" for="check3">Conejo</label>
+                    <input class="form-check-input" type="checkbox" name="check" id="check3" value="checkc">
+                </div>
+                <div class="mb-3 form-check">
+                    <label class="form-check-label" for="check4">Ave</label>
+                    <input type="checkbox" class="form-check-input" name="check" id="check4" value="checkd">
+                </div>
+                <div class="mb-3 form-check">
+                    <label class="form-check-label" for="check5">Otra mascota</label>
+                    <input type="checkbox" class="form-check-input" name="check" id="check5" value="checke">
+                </div>
+            </form>
+        </section>
+        <section class="row justify-content-between text-center gap-3 p-3 mb-3 border-top">
+            <h3 class="fw-light text-center">Indicá el barrio</h3>
+            <select class="form-select border-dark" aria-label="Default select example">
+                <option selected>Seleccioná tu barrio</option>
+                <option value="1">Agraciada</option>
+                <option value="2">Aguada</option>
+                <option value="3">Belvedere</option>
+                <option value="4">Capurro</option>
+                <option value="5">Casavalle</option>
+                <option value="6">Cordón</option>
+                <option value="7">Ciudad Vieja</option>
+            </select>
+        </section>
+        <section class="row justify-content-evenly text-center p-3 gap-5 border-bottom">
+            <div class="mt-3  border-top p-3 gap-3">
+                <label for="formFileSm" class="form-label">
+                    <h3 class="fw-light"> Cargá una foto </h3>
+                </label>
+                <input class="form-control form-control-sm" id="formFileSm" type="file">
+            </div>
+            <div class="row gap-3 p-3 my-3 border-top">
+                <h3 class="fw-light text-center" for="text"> Detallá brevemente a la mascota</h3>
+                <textarea name="" id="text" cols="5" rows="2"></textarea>
+            </div>
+        </section>
+        <div class="row text-center shadow-lg border-top mt-5">
+            <input class="btn btn-outline-dark" type="submit" value="Publicar">
+        </div>
+        </section>
+    </main>
+
+
+
+
+
+    <footer class="bg-light">
+        <div class="container  d-flex flex-column p-3">
+            <nav class=" row align-items-center text-center contenedorFooter">
+            <a class="col-4" href="#">Quiénes somos</a>
+            <a class="col-4 " href="#">Denuncias y reclamos</a>
+            <a class="col-4" href="./contacto.html">Contactános</a>
+            </nav>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
