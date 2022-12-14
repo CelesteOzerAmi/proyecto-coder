@@ -1,9 +1,49 @@
-.Contenedor {background: linear-gradient( 180deg, rgba(242,226,236,0.9472163865546218) 2%, rgba(214,225,238,0.7343312324929971) 75%);}
-body { 
-    padding:0 
-    ;margin: 0;
+body {
+  background: linear-gradient(180deg, rgba(242, 226, 236, 0.9472163866) 2%, rgba(214, 225, 238, 0.7343312325) 75%);
 }
 
-.Sug { text-align: center; align-self:center; font-family: Verdana, Geneva, Tahoma, sans-serif ; font-size: small;}
-footer {; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: small;}
-header { font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: small; }
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  padding: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  justify-self: center;
+  box-shadow: 2px;
+}
+
+.navb {
+  font-size: small;
+}
+
+footer {
+  border-top: 3px black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+}
+
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 3px black;
+}
+
+.Sug {
+  text-align: center;
+  align-self: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.comunidad {
+  margin-top: 5px;
+  border-top: 3px black;
+  list-style: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
