@@ -2,39 +2,42 @@
     text-align: center;
     align-self: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller; 
     animation-name: sugerencias;
-    animation-duration: 15s;
-    
-    @keyframes sugerencias {
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+
+@keyframes sugerencias {
     0% {
-        box-shadow: 10px;
+        transform: translate(0px);
     }
 
     25% {
-        box-shadow: 20px;
+        transform: translate(50px);
     }
 
     50% {
-        box-shadow: 30px;
+        transform: translate(-50px);
     }
 
     75% {
-        box-shadow: 20px;
+        transform: translate(50px);
     }
 
     100% {
-        box-shadow: 10px;
+        transform: translate(0px);
     }
-
-
-}
 }
 
 
 .comunidad {
     margin-top: 5px;
     border-top: 3px black;
-    ul {li {list-style: none;}  } 
+
+    ul {
+        li {
+            list-style: none;
+        }
+    }
 }
-
-
